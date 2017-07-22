@@ -34,3 +34,10 @@
     .parallax.enhanced:first-child {
       background:none;
     }
+
+    @media(max-width:360px) {
+      .parallax {
+          width: 90%;
+          height: auto;
+      }
+    }
